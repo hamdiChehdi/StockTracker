@@ -1,0 +1,26 @@
+mat-card
+{
+  background-color: aliceblue;
+  width: 90%;
+  height: 130px;
+}
+
+.idle {
+  background-color: aliceblue;
+  width: 90%;
+  height: 130px;
+}
+
+.increase {
+  background-color: aliceblue;
+  width: 90%;
+  height: 130px;
+  color: #558B2F;
+}
+
+.decrease {
+  background-color: aliceblue;
+  width: 90%;
+  height: 130px;
+  color: #C62828;
+}

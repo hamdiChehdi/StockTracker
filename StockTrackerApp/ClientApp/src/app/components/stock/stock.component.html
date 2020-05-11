@@ -1,0 +1,11 @@
+<mat-card [class.idle]="IsIdle" [class.increase]="IsIncreased" [class.decrease]="IsDecreased">
+
+  <mat-card-title>{{ stockData.symbol }}</mat-card-title>
+  <mat-card-subtitle>{{ stockData.name }}</mat-card-subtitle>
+
+  <mat-card-content>
+    {{ CurrentPrice  | currency }}
+
+    <mat-icon *ngIf="!IsIdle">{{IsIncreased ? 'trending_up' : 'trending_down'}}</mat-icon>
+  </mat-card-content>
+</mat-card>
