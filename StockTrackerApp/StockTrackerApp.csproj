@@ -25,7 +25,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="D:\workstation\StockApp\StockTrackerApp\StockDataManager\StockDataManager.csproj" />
+    <ProjectReference Include="..\StockDataManager.Test\StockDataManager.Test.csproj" />
+    <ProjectReference Include="..\StockDataManager\StockDataManager.csproj" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
